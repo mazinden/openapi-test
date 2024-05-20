@@ -81,7 +81,7 @@ paths:
         - name: id
           in: path
           required: true
-          description: Уникальный идентификатор пользователя
+          description: Уникальный идентификатор пользователя!
           schema:
             type: integer
       requestBody:
