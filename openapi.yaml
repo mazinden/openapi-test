@@ -50,8 +50,6 @@ paths:
       responses:
         '201':
           $ref: '#/components/responses/UserCreationSuccess'
-        '400':
-          $ref: '#/components/responses/BadRequest'
         '401':
           $ref: '#/components/responses/Unauthorized'
         '409':
@@ -102,8 +100,6 @@ paths:
       responses:
         '200':
           $ref: '#/components/responses/UserUpdateSuccess'
-        '400':
-          $ref: '#/components/responses/BadRequest'
         '401':
           $ref: '#/components/responses/Unauthorized'
         '404':
@@ -135,8 +131,6 @@ paths:
       responses:
         '200':
           $ref: '#/components/responses/UserUpdateSuccess'
-        '400':
-          $ref: '#/components/responses/BadRequest'
         '401':
           $ref: '#/components/responses/Unauthorized'
         '404':
@@ -378,13 +372,6 @@ components:
             $ref: '#/components/schemas/error'
 
     MethodNotAllowed:
-      description: ""
-      content:
-        application/json:
-          schema:
-            $ref: '#/components/schemas/error'
-
-    BadRequest:
       description: ""
       content:
         application/json:
