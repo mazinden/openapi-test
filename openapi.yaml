@@ -81,7 +81,7 @@ paths:
           $ref: '#/components/responses/ServerError'
 
     put:
-      summary: Обновить информацию о пользователе по id
+      summary: Обновить информацию о пользователе по ID
       operationId: usersIdPUT
       tags:
         - users
