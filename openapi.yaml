@@ -81,13 +81,13 @@ paths:
           $ref: '#/components/responses/ServerError'
 
     put:
-      summary: Обновить информацию о пользователе по ID
+      summary:
       operationId: usersIdPUT
       tags:
         - users
       parameters:
         - name: id
-          description: Уникальный идентификатор пользователя
+          description:
           in: path
           required: true
           schema:
