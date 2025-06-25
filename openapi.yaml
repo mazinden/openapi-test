@@ -87,7 +87,7 @@ paths:
         - users
       parameters:
         - name: id
-          description: Идентификатор
+          description: Уникальный идентификатор пользователя
           in: path
           required: true
           schema:
